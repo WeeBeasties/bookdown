@@ -36,7 +36,7 @@ require(["gitbook", "lodash", "jQuery"], function(gitbook, _, $) {
         },
         'linkedin': {
             'label': 'LinkedIn',
-            'icon': 'fa fa-linkedin',
+            'icon': 'fa fa-linkedin', 
             'onClick': function(e) {
                 e.preventDefault();
                 window.open("https://www.linkedin.com/shareArticle?mini=true&url="+encodeURIComponent(location.href)+"&title="+encodeURIComponent(document.title));
